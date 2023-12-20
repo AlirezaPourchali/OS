@@ -29,7 +29,9 @@ func main() {
 	var y uint32   //result
 	var thread int //default number
 
+	fmt.Printf("input y:")
 	fmt.Scan(&y)
+	fmt.Printf("input number of threads:")
 	fmt.Scan(&thread)
 
 	// test case
